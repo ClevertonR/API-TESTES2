@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "a008a490-7bd4-4988-affb-ac0aa8fd4d0d",
+		"name": "API TESTES 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21024745"
+	},
+	"item": [
+		{
+			"name": "https://gorest.co.in/public/v2/posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/posts",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "criar usuário",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
